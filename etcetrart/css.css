@@ -1,0 +1,281 @@
+@import url("thumbs.css");  
+/* edit thumbs.css */
+
+
+/* oh snap. view source all y'all.  */
+
+*
+{
+background-attachment:;
+font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:14px;
+color:#fff;
+line-height:150%;
+font-weight:normal;
+-moz-user-select: none; 
+-khtml-user-select: none; 
+user-select: none;
+
+}
+
+input
+{
+-moz-user-select:auto; 
+-khtml-user-select:auto; 
+user-select:auto;
+color:#000;
+}
+
+/* structure */
+
+body
+{
+
+text-align:center;
+margin:0 0 0 0;
+padding:0 0 0 0;
+min-width:800px;
+z-index:-3;
+}
+
+
+#logo
+{
+width:280px;
+height:164px;
+background:url(/images/logo-4.png) no-repeat;
+background-position:top left;
+margin:-40px -40px 0 0px;
+position:fixed;
+top:10px;
+right:330px;
+z-index:3;
+}
+
+#logo:hover
+{
+background-position:0px -184px;
+}
+
+#nav
+{
+margin:105px -110px 0 0px;
+text-align:right;
+position:fixed;
+right:388px;
+}
+
+#nav a
+{
+cursor:pointer;
+}
+
+#thumbcontainer
+{
+background-color:#666;
+padding:10px 12px 10px 2px;
+margin:30px 0 30px 100px;
+width:170px;
+position:absolute;
+right:100px;
+z-index:100;
+
+}
+
+/* what page */
+
+#what
+{
+background-color:#666;
+padding:15px 20px 18px 15px;
+margin:20px 0 0 0;
+width:370px;
+text-align:left;
+position:absolute;
+top:24px;
+z-index:-2;
+display:none;
+opacity:0;
+left:-300px;
+}
+
+/* contact page */
+
+#contact
+{
+background-color:#666;
+padding:15px 20px 10px 20px;
+margin:20px 20px 0 0;
+width:370px;
+text-align:left;
+position:absolute;
+top:24px;
+font-size:18px;
+line-height:150%;
+letter-spacing:0px;
+font-weight:bold;
+opacity:0;
+left:-300px;
+z-index:400;
+}
+
+/* purchase page */
+
+#purchase000
+{
+background-color:#666;
+padding:0px 0 20 20;
+margin:80px 0 0 0;
+width:300px;
+text-align:left;
+position:absolute;
+top:50px;
+font-size:18px;
+line-height:150%;
+letter-spacing:0px;
+font-weight:bold;
+opacity:0;
+left:-300px;
+z-index:-2;
+}
+
+.purchase000
+{
+font-size:17px;
+line-height:120%;
+margin:5px 0 5 3;
+}
+
+#purchase000 > image
+{
+height:40;	
+}
+
+#buynow
+{
+margin-left:-8px;
+margin-bottom:-20px;
+
+}
+
+#contact > a
+
+{
+margin-left:10px;
+font-size:14px;
+line-height:200%;
+color:#aff;
+}
+
+#contact > a:hover
+
+{
+color:#0aa;
+}
+
+#what a
+
+{
+color:#aff;
+font-size:14px;
+}
+
+#what a:hover
+
+{
+color:#0aa;
+}
+
+
+
+/* shadow */
+
+.shadow
+{
+-moz-box-shadow: 10px 10px 0px #000;
+-webkit-box-shadow: 10px 10px 0px #222;
+box-shadow: 10px 10px 0px #000;
+
+
+}
+
+/* fonts */
+
+h1
+{
+font-size:40px;
+letter-spacing:-2px;
+margin:10px 00px;
+}
+
+h2
+{
+font-weight:normal;
+font-size:30px;
+line-height:100%;
+letter-spacing:-2px;
+margin-left:0px;
+}
+
+/* price */
+
+
+h3,h3:hover
+{
+text-align:left;
+color:#fff;
+font-size:30px;
+width:auto;
+margin:155px 0 0 0px;
+position:relative;
+font-weight:bold;
+letter-spacing:-1px;
+line-height:20px;
+z-index:2;
+left:-0px;
+opacity:0;
+}
+
+h4
+{
+text-align:right;
+color:#fff;
+font-size:18px;
+width:auto;
+margin:-20px -10px 0 0px;
+position:relative;
+font-weight:normal;
+letter-spacing:-1px;
+line-height:20px;
+z-index:2;
+left:-0px;
+opacity:0;
+}
+
+a
+{
+text-decoration:none;
+}
+
+#nav > a
+{
+font-weight:normal;
+color:#fff;
+background-color:#666;
+z-index:2;
+}
+
+#nav > a:hover
+{
+color:#0aa;
+background-color:#666;
+}
+
+#copy
+{
+font-size:12px;
+color:#fff;
+font-weight:normal;
+text-align:left;
+padding:0px 0 0 10px;
+}

@@ -2,77 +2,72 @@
 
 body {
   background: #d4d4d4 url(josefpaijBG.jpg) no-repeat fixed bottom center;
-  font-family: Helvetica, Arial, sans-serif;
+  color:  #484848;
   display: block;
-  width: 100%;
   height: auto;
   margin: 0px;
   padding: 0px;
-  color:  #484848;
+  text-align: center;
+  width: 100%;
 }
 
 #root {
+  height: auto;
+  margin: 0px auto 30px auto;	
   width: 640px;
- 	margin: 0px auto 30px auto;	
- 	height: auto;
+  position: relative;
 }
 
 #logo {
-  background: url(josef2copy.gif) top left;
-  position: relative;
-  top: 35px;
-  width: 74px;
-  float: right;
-  height: 74px;
-  margin-right: 61px;
-  box-shadow: 0px 5px 31px #999;
-  -moz-box-shadow: 0px 5px 31px #999;
-  -webkit-box-shadow: 0px 5px 31px #999;
+  background-image: url(josef2copy.gif);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 41px;
+  position: absolute;
+  right: 152px;
+  top: 15px;
+  width: 41px;
 }
 
 #logo:hover {
-  background: url(josef2copy.gif) top right;	
+  background-position: top right;
 }
 
 #banner {
-  background: url(newHeader.png) top center;
-  height: 266px;
-  width: 639px;
-  position: relative;
-  top: 61px;
-  margin-top: -10px;
+  background-image: url(newHeader.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 181px;
+  margin-top: 1px;
   margin-left: -15px;
-  margin-bottom: -5px;	
+  margin-bottom: -57px;	
+  position: relative;
+  top: 21px;
+  width: 639px;
   z-index: -1;
 }
 
-#video {
-  margin: 0px auto 0px auto;
-  font-weight: 400;
-  font-size: 15px;
-}
-
-#copy {
+#copyright {
   margin-top: calc(50% - 200px);
   text-align: center;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 /* text */
 .itemTitle {
-  font-weight: 800;
-  margin-left: -26px;
   margin-bottom: 13px;
-  margin-top: 35px;
-  font-size: 30px;
-  letter-spacing: -1px;
-  text-shadow: 0px 3px 5px #999999;
+  margin-top: 135px;
+  font-size: 2rem;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: -0.3px;
 }
 
 a {
   margin-top: -10px;
-  text-decoration: none;
   color: #333;
+  padding: 8px;
 }
 
 a:visited	{
@@ -80,14 +75,5 @@ a:visited	{
 }
 
 a:hover {
-  background-color: #ccc;
-  color: #666;
-}
-
-iframe {
-  margin-top: 20px;
-  margin-bottom: 50px;
-  box-shadow:  0px 9px 22px #999;
-  -moz-box-shadow:  0px 9px 22px #999;
-  -webkit-box-shadow:  0px 9px 22px #999;
+  background-color: rgba(0, 0, 0, 0.1);
 }
